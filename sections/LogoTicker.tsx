@@ -10,13 +10,13 @@ const logos = [logo1, logo2, logo3, logo4, logo5];
 
 const LogoTicker = () => {
   return (
-    <section className="bg-[#ECE9E5] pt-26 pb-16 lg:pt-28">
+    <section className="bg-[#ECE9E5] pt-26 pb-16 lg:pt-28" >
       <div className="mx-auto mx-w-[1280px px-4]">
         <p className=" text-center text-[13px] font-medium text-[#6B6B6B]">
           
           Trusted by 7,000+ top startups, freelancers and studios
         </p>
-        <div className="flex mt-6 justify-center items-center gap-8 md:gap-10 lg:gap-14 flex-wrap">
+        <div className="flex mt-6 justify-center items-center gap-8 md:gap-10 lg:gap-14 overflow-hidden ">
           {logos.map((logo, index) => (
             <Image key={index} src={logo} alt="logo" className="w-auto object-contain opacity-90" />
           ))}
