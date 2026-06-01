@@ -108,7 +108,7 @@ const FeaturesSection = () => {
           <h3
             className="
     mt-3
-    max-w-[520px]
+    max-w-[450px]
     text-[54px]
     font-semibold
    leading-16

@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 z-50 w-full px-4">
+    <header className="absolute top-0 left-0 z-50 w-full px-4 fixed">
       <div className="mx-auto max-w-[1280px] py-5 lg:px-8">
         {/* Top Navbar */}
         <div
