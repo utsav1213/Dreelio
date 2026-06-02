@@ -3,6 +3,7 @@ import Features from "@/sections/Features";
 import Hero from "@/sections/Hero";
 import LogoTicker from "@/sections/LogoTicker";
 import Navbar from "@/sections/Navbar";
+import Pricing from "@/sections/Pricing";
 import Review from "@/sections/Reviews";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
       <LogoTicker/>
       <Benefits />
       <Features />
-      <Review/>
+      <Review />
+      <Pricing/>
     </main>
   );
 }
